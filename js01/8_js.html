@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function abc(input){
+            switch(input){
+                case "장원영":
+                    return "이쁘다";
+                    break;
+                case "전지현":
+                    return "잠잔다";
+                    break;
+                default:
+                    return "올바르지않은 값입니다";
+                    break;
+            }
+        }
+
+        function abcd(input){
+            switch(input){
+                case "김경민":
+                    alert("멋있다");
+                    break;
+                case "성주영":
+                    alert("못났다");
+                    break;
+                default:
+                    alert("올바르지않은 값입니다");
+                    break;
+            }
+
+        }
+        function print(a){
+            alert(a);
+        }
+        
+
+        var aa = abc("전지현");
+        alert(aa);
+
+        abcd("전지현");
+        print("안녕하세요");
+        print(1);
+
+
+    </script>
+</body>
+</html>

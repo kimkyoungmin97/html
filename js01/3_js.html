@@ -9,30 +9,30 @@
     
 
     <script>
-        var a = 10;
+        // var a = 10;
 
 
         // result = a > 20 ? "a가 크다" : "a가 작다";
-        if(a > 20) {
-            alert("a가 크다");
-        } else {
-            alert("a가 작다");
-        }
+        // if(a > 20) {
+        //     alert("a가 크다");
+        // } else {
+        //     alert("a가 작다");
+        // }
         
 
-        var engScore = 75;
+        // var engScore = 75;
 
-        if(engScore >= 90 && engScore < 100) {
-            alert("a");
-        } else if (engScore < 90 && engScore >= 80) {
-            alert("b");
-        } else if (engScore < 80 && engScore >= 70) {
-            alert("c");
-        } else if (engScore < 70 && engScore >= 60) {
-            alert("d");
-        } else if (engScore < 60 && engScore > 0) {
-            alert("e");
-        } 
+        // if(engScore >= 90 && engScore < 100) {
+        //     alert("a");
+        // } else if (engScore < 90 && engScore >= 80) {
+        //     alert("b");
+        // } else if (engScore < 80 && engScore >= 70) {
+        //     alert("c");
+        // } else if (engScore < 70 && engScore >= 60) {
+        //     alert("d");
+        // } else if (engScore < 60 && engScore > 0) {
+        //     alert("e");
+        // } 
 
           // 90점 이상 a
         // 100 ~ 97 : a+
@@ -85,18 +85,22 @@
         // var x = 0;
         // var y = 1;
 
-        // if(x == 0 || y == 0) {
-        //     alert("어느 사분면에도 속하지 않습니다");
+        function kkkk(x,y) {
+            
+            if(x == 0 || y == 0) { 
+                alert("원점에 있습니다");
+            } else if (x > 0 && y > 0){
+                alert("1사분면에 있습니다");
+            } else if (x < 0 && y > 0){
+                alert("2사분면에 있습니다");
+            } else if (x < 0 && y < 0){
+                alert("3사분면에 있습니다");
+            } else {
+                alert("4사분면에 있습니다");
+            }
 
-        // } else if (x > 0 && y > 0){
-        //     alert("1사분면에 있습니다");
-        // } else if (x < 0 && y > 0){
-        //     alert("2사분면에 있습니다");
-        // } else if (x < 0 && y < 0){
-        //     alert("3사분면에 있습니다");
-        // } else {
-        //     alert("4사분면에 있습니다");
-        // }
+        }
+
 
     </script>
 </body>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function abc(){
+        //     alert("안녕");
+        // }
+
+        // function abcd(a){
+        //     alert(a + "잘가");
+        // }
+        // function abcde(a,b){
+        //     alert(a + " | " + b + "입니다");
+        // }
+        // function abcdef(a,b){
+        //     alert(a + " | " + b + "입니다");
+        //     return b;
+        // }
+        
+        // abc();
+        // abcd(2);
+        // abcde(1,2);
+
+        // var abc = abcdef(1,2);
+        // alert(abc);
+
+        function sum(a,b){
+            let totalValue = a + b;
+            return totalValue;
+        }
+
+        function sub(a,b){
+            let subValue = a - b;
+            return subValue;
+        }
+        
+        function mul(a,b){
+            let mulValue = a * b;
+            return mulValue;
+        }
+
+        function div(a,b){
+            let divValue = a / b;
+            return divValue;
+        }
+
+        var abc = sum(10,5);
+        var abcd = sub(10,5);
+        var abcde = mul(10,5);
+        var abcdef = div(10,5);
+        alert("더하기:" + abc);
+        alert("빼기:" + abcd);
+        alert("곱하기:" + abcde);
+        alert("나누기:" + abcdef);
+
+    </script>
+</body>
+</html>
